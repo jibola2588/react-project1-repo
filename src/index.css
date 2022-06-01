@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.wrapper{ 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card{ 
+  width: 18rem
+}
+.card-body{ 
+  background:#23252C;
+  color: #fff;
+}
+.info{ 
+  background:#23252C;
+  color: #fff;
+}
+.name{
+  font-size: 1.5rem;
+  line-height: 1px;
+  margin-top: 0.6rem !important;
+}
+.dev{ 
+  color:#F3BF99;
+  margin-top: 0.7rem !important;
+  font-size: 0.9rem;
+  margin-bottom: 0px !important;
+}
+.site{ 
+  font-size: 0.6rem;
+}
+.btnWrapper{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px !important;
+}
+button{ 
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  padding:0.125rem 15px;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+}
+button:hover{ 
+  cursor: pointer;
+}
+.btnlinkedin{ 
+  margin-left: 0.9rem;
+}
+.email{ 
+  margin-left: 10px;
+}
+
+.about p,.interest p{ 
+font-size: 0.725rem;
+}
+
+h6{ 
+  font-size:1.1rem;
+    margin-bottom: 0.3rem !important;
+}
+.card-footer{ 
+  background: #23252C;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.card-footer div{ 
+  background: #23252C;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.card-footer div i{ 
+  color:#fff;
+  margin-right:1.5rem;
+  font-size: 1.2rem;
+}
+
+.card-footer div i:hover{ 
+  cursor:pointer
+}
